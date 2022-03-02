@@ -1,0 +1,6 @@
+query AddressQuery ($where: AddressWhereInput) {
+    addresses(where: $where) {
+        latitude
+        longitude
+    }
+}

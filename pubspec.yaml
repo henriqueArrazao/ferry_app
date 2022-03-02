@@ -44,9 +44,10 @@ dev_dependencies:
     sdk: flutter
   ferry_generator: #[latest-version]
   build_runner: #[latest-version]
+  analyzer:
 
 dependency_overrides:
-  analyzer:
+  dart_style:
   build_resolvers:
 
   # The "flutter_lints" package below contains a set of recommended lints to
